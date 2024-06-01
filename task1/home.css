@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow: hidden; */
+    /* overflow-y: auto; */
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div:first-child {
+    font-weight: bold;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.first-home {
+    margin: 30px;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(235, 235, 237);
+}
+
+.first-home div:first-child {
+    width: 50%;
+    font-size: 1.5em;
+    margin: 30px;
+    width: 50%;
+}
+
+.first-home div:nth-child(2) {
+    width: 50%;
+    display: inline;
+}
+
+.first-home img {
+    width: 50%;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.first-home div span:nth-child(1) {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    display: block;
+}
+
+.first-home div span:nth-child(2) {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(150, 102, 203);
+    display: block;
+}
+
+
+.first-home div button {
+    background-color: rgb(163, 149, 182);
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 1em;
+    color: white;
+
+}
+
+.first-home p span {
+    font-size: 30px;
+}
+
+.second-home {
+    /* background-color: white; */
+    display: flex;
+}
+
+.second-home img {
+    /* margin: 30px; */
+    margin-right: 50px;
+}
+.second-home img:nth-child(2) {
+    /* margin: 30px; */
+    margin-left: 50px;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.margin {
+    margin: 30px;
+}
+.center{
+    text-align: center;
+}
+
+.padding {
+    padding: 30px;
+}
+.footer{
+    background-color: rgb(50, 50, 55);
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.image-nutrition1{
+    /* width: 100%; */
+    margin: 30px;
+}
+.login-image{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.form-class{
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+.loginbutton{
+    background-color: rgb(26, 191, 11);
+    border-radius: 7px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    color: white;
+}
+.form{
+    text-align: center;
+    font-size: 25px;
+}
+input{
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+}
